@@ -1,21 +1,45 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClInclude Include="easylogging++.h" />
-    <ClInclude Include="json.hpp" />
     <ClInclude Include="MMTConstants.h" />
     <ClInclude Include="MMTFileUtils.h" />
     <ClInclude Include="MMTFormatUtils.h" />
     <ClInclude Include="MMTJsonUtils.h" />
     <ClInclude Include="MMTLogUtils.h" />
     <ClInclude Include="MMTStringUtils.h" />
+    <ClInclude Include="json.hpp">
+      <Filter>ThirdParty</Filter>
+    </ClInclude>
+    <ClInclude Include="easylogging++.h">
+      <Filter>ThirdParty</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="easylogging++.cc" />
     <ClCompile Include="MMTFileUtils.cpp" />
     <ClCompile Include="MMTFormatUtils.cpp" />
     <ClCompile Include="MMTJsonUtils.cpp" />
     <ClCompile Include="MMTLogUtils.cpp" />
     <ClCompile Include="MMTStringUtils.cpp" />
+    <ClCompile Include="easylogging++.cc">
+      <Filter>ThirdParty</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="ThirdParty">
+      <UniqueIdentifier>{ce26edec-d6e0-4c5a-a2bb-bf43026ec815}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{ca0acc7a-0dfd-4408-905c-3a950facda6b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="LICENSE.txt">
+      <Filter>Resources</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md">
+      <Filter>Resources</Filter>
+    </None>
   </ItemGroup>
 </Project>

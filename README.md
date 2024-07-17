@@ -2,6 +2,8 @@
 
 This is a dependency project for MigotoModTool (MMT-Community).
 
+(Only tested and support Release X64)
+
 # How to build 
 
 Some preconfig you will need to have:
